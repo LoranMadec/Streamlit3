@@ -54,7 +54,7 @@ authenticator.login()
 
 def accueil():
     st.title("Bienvenue chez toi Full Blue Monthy")
-    st.image('.\images\img4.png') 
+    st.image("img4.png") 
 
 
 def photos():
@@ -64,15 +64,15 @@ def photos():
 
     with col1:
         st.header("Le jeu")
-        st.image('.\images\img3.png')
+        st.image("img3.png")
 
     with col2:
         st.header("du matin...")
-        st.image('.\images\img1.png')
+        st.image("img1.png")
 
     with col3:
         st.header("du soir...")
-        st.image('.\images\img2.png')
+        st.image("img2.png")
 
 
 if st.session_state["authentication_status"]:
